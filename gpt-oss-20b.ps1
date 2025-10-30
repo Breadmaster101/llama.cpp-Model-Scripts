@@ -1,0 +1,3 @@
+winget update llama.cpp
+Start "http://127.0.0.1:8080/"
+llama-server -hf ggml-org/gpt-oss-20b-GGUF --jinja -ngl 99 --threads -1 --ctx-size 4000 --temp 1.0 --top-p 1.0 --top-k 0 -ot ".ffn_.*_exps.=CPU"
